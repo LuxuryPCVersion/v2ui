@@ -3,7 +3,7 @@
 ]] -- Create the main window
 
 
-local EleriumV2_UI = 
+local EleriumV2_UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxuryPCVersion/v2ui/refs/heads/main/eleriumV2"))()
 
 local c2 = a.new({
     MainColor = Color3.fromRGB(138, 43, 226),
